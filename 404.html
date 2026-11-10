@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página no encontrada — Johan Rujano</title>
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#070b14">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #070b14;
+            --text: #e8eef8;
+            --muted: #94a3b8;
+            --accent: #5eead4;
+            --border: rgba(148, 163, 184, 0.16);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            display: grid;
+            min-height: 100vh;
+            margin: 0;
+            padding: 1.5rem;
+            place-items: center;
+            background:
+                radial-gradient(circle at 80% 0%, rgba(129, 140, 248, 0.16), transparent 50%),
+                radial-gradient(circle at 0% 100%, rgba(94, 234, 212, 0.1), transparent 50%),
+                var(--bg);
+            color: var(--text);
+            font-family: "Inter", system-ui, sans-serif;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        main {
+            max-width: 520px;
+            padding: 2.5rem;
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .code {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: var(--accent);
+            font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+            font-size: 0.85rem;
+            letter-spacing: 0.08em;
+        }
+
+        h1 {
+            margin: 0 0 1rem;
+            font-family: "Space Grotesk", "Inter", sans-serif;
+            font-size: clamp(2rem, 7vw, 3rem);
+            line-height: 1.05;
+            letter-spacing: -0.04em;
+        }
+
+        p {
+            margin: 0 0 1.5rem;
+            color: var(--muted);
+        }
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            padding: 0.75rem 1.35rem;
+            border-radius: 12px;
+            background: linear-gradient(120deg, #5eead4, #818cf8);
+            color: #04110f;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        a:focus-visible {
+            outline: 2px solid #5eead4;
+            outline-offset: 3px;
+        }
+
+        .en {
+            margin-top: 1.25rem;
+            margin-bottom: 0;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <span class="code" translate="no">&lt;/&gt; 404</span>
+        <h1>Esta página no existe.</h1>
+        <p>Puede que el enlace haya cambiado o que la página se haya movido.</p>
+        <a href="/">Volver al inicio</a>
+        <p class="en">Page not found. <a href="/" style="display:inline;min-height:0;padding:0;background:none;color:#5eead4;text-decoration:underline;font-weight:500;">Go home</a>.</p>
+    </main>
+</body>
+</html>
